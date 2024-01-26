@@ -32,5 +32,4 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(ofertas_router, prefix="/ofertas")
-app.include_router(users_router, prefix="/users")
+app.include_router(endpoints)
