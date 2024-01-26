@@ -8,6 +8,8 @@ from contextlib import asynccontextmanager
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 
+from endpoints import router as endpoints
+
 import colorama
 from colorama import Fore
 
